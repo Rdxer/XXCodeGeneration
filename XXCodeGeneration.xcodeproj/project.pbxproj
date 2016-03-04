@@ -12,6 +12,13 @@
 		FD8125E11C4E303200EA3A61 /* XXCodeGeneration.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = FD8125E01C4E303200EA3A61 /* XXCodeGeneration.xcscheme */; };
 		FD8125E41C4E303200EA3A61 /* XXCodeGeneration.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8125E31C4E303200EA3A61 /* XXCodeGeneration.m */; };
 		FD8125E71C4E303200EA3A61 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8125E61C4E303200EA3A61 /* NSObject_Extension.m */; };
+		FD8125F81C4E30C600EA3A61 /* XLazySettings.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8125F41C4E30C600EA3A61 /* XLazySettings.m */; };
+		FD8125F91C4E30C600EA3A61 /* XLazySettingsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8125F61C4E30C600EA3A61 /* XLazySettingsWindowController.m */; };
+		FD8125FA1C4E30C600EA3A61 /* XLazySettingsWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD8125F71C4E30C600EA3A61 /* XLazySettingsWindowController.xib */; };
+		FD8126041C4E30CD00EA3A61 /* OCProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8125FD1C4E30CD00EA3A61 /* OCProperty.m */; };
+		FD8126051C4E30CD00EA3A61 /* StringFormater.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8125FF1C4E30CD00EA3A61 /* StringFormater.m */; };
+		FD8126061C4E30CD00EA3A61 /* StringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8126011C4E30CD00EA3A61 /* StringHelper.m */; };
+		FD8126071C4E30CD00EA3A61 /* TextCheckingResult.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8126031C4E30CD00EA3A61 /* TextCheckingResult.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,21 @@
 		FD8125E51C4E303200EA3A61 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
 		FD8125E61C4E303200EA3A61 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
 		FD8125E81C4E303200EA3A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD8125EF1C4E304E00EA3A61 /* CustomLogTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLogTools.h; sourceTree = "<group>"; };
+		FD8125F11C4E308D00EA3A61 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FD8125F31C4E30C600EA3A61 /* XLazySettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLazySettings.h; sourceTree = "<group>"; };
+		FD8125F41C4E30C600EA3A61 /* XLazySettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLazySettings.m; sourceTree = "<group>"; };
+		FD8125F51C4E30C600EA3A61 /* XLazySettingsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLazySettingsWindowController.h; sourceTree = "<group>"; };
+		FD8125F61C4E30C600EA3A61 /* XLazySettingsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLazySettingsWindowController.m; sourceTree = "<group>"; };
+		FD8125F71C4E30C600EA3A61 /* XLazySettingsWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLazySettingsWindowController.xib; sourceTree = "<group>"; };
+		FD8125FC1C4E30CD00EA3A61 /* OCProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCProperty.h; sourceTree = "<group>"; };
+		FD8125FD1C4E30CD00EA3A61 /* OCProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCProperty.m; sourceTree = "<group>"; };
+		FD8125FE1C4E30CD00EA3A61 /* StringFormater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringFormater.h; sourceTree = "<group>"; };
+		FD8125FF1C4E30CD00EA3A61 /* StringFormater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringFormater.m; sourceTree = "<group>"; };
+		FD8126001C4E30CD00EA3A61 /* StringHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringHelper.h; sourceTree = "<group>"; };
+		FD8126011C4E30CD00EA3A61 /* StringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringHelper.m; sourceTree = "<group>"; };
+		FD8126021C4E30CD00EA3A61 /* TextCheckingResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextCheckingResult.h; sourceTree = "<group>"; };
+		FD8126031C4E30CD00EA3A61 /* TextCheckingResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextCheckingResult.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +90,16 @@
 		FD8125DE1C4E303200EA3A61 /* XXCodeGeneration */ = {
 			isa = PBXGroup;
 			children = (
+				FD8125FB1C4E30CD00EA3A61 /* StringHelper */,
+				FD8125F21C4E30C600EA3A61 /* Settings */,
+				FD8125F01C4E306000EA3A61 /* Category */,
+				FD8125EE1C4E304D00EA3A61 /* CustomLogTools */,
 				FD8125E21C4E303200EA3A61 /* XXCodeGeneration.h */,
 				FD8125E31C4E303200EA3A61 /* XXCodeGeneration.m */,
 				FD8125E51C4E303200EA3A61 /* NSObject_Extension.h */,
 				FD8125E61C4E303200EA3A61 /* NSObject_Extension.m */,
 				FD8125E81C4E303200EA3A61 /* Info.plist */,
+				FD8125F11C4E308D00EA3A61 /* PrefixHeader.pch */,
 				FD8125DF1C4E303200EA3A61 /* Supporting Files */,
 			);
 			path = XXCodeGeneration;
@@ -84,6 +111,48 @@
 				FD8125E01C4E303200EA3A61 /* XXCodeGeneration.xcscheme */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD8125EE1C4E304D00EA3A61 /* CustomLogTools */ = {
+			isa = PBXGroup;
+			children = (
+				FD8125EF1C4E304E00EA3A61 /* CustomLogTools.h */,
+			);
+			path = CustomLogTools;
+			sourceTree = "<group>";
+		};
+		FD8125F01C4E306000EA3A61 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		FD8125F21C4E30C600EA3A61 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FD8125F31C4E30C600EA3A61 /* XLazySettings.h */,
+				FD8125F41C4E30C600EA3A61 /* XLazySettings.m */,
+				FD8125F51C4E30C600EA3A61 /* XLazySettingsWindowController.h */,
+				FD8125F61C4E30C600EA3A61 /* XLazySettingsWindowController.m */,
+				FD8125F71C4E30C600EA3A61 /* XLazySettingsWindowController.xib */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		FD8125FB1C4E30CD00EA3A61 /* StringHelper */ = {
+			isa = PBXGroup;
+			children = (
+				FD8125FC1C4E30CD00EA3A61 /* OCProperty.h */,
+				FD8125FD1C4E30CD00EA3A61 /* OCProperty.m */,
+				FD8125FE1C4E30CD00EA3A61 /* StringFormater.h */,
+				FD8125FF1C4E30CD00EA3A61 /* StringFormater.m */,
+				FD8126001C4E30CD00EA3A61 /* StringHelper.h */,
+				FD8126011C4E30CD00EA3A61 /* StringHelper.m */,
+				FD8126021C4E30CD00EA3A61 /* TextCheckingResult.h */,
+				FD8126031C4E30CD00EA3A61 /* TextCheckingResult.m */,
+			);
+			path = StringHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD8125E11C4E303200EA3A61 /* XXCodeGeneration.xcscheme in Resources */,
+				FD8125FA1C4E30C600EA3A61 /* XLazySettingsWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,7 +224,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD8125E41C4E303200EA3A61 /* XXCodeGeneration.m in Sources */,
+				FD8126041C4E30CD00EA3A61 /* OCProperty.m in Sources */,
+				FD8126051C4E30CD00EA3A61 /* StringFormater.m in Sources */,
+				FD8125F81C4E30C600EA3A61 /* XLazySettings.m in Sources */,
+				FD8126061C4E30CD00EA3A61 /* StringHelper.m in Sources */,
 				FD8125E71C4E303200EA3A61 /* NSObject_Extension.m in Sources */,
+				FD8125F91C4E30C600EA3A61 /* XLazySettingsWindowController.m in Sources */,
+				FD8126071C4E30CD00EA3A61 /* TextCheckingResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +316,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(HOME)";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XXCodeGeneration/PrefixHeader.pch";
 				INFOPLIST_FILE = XXCodeGeneration/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -255,6 +332,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(HOME)";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XXCodeGeneration/PrefixHeader.pch";
 				INFOPLIST_FILE = XXCodeGeneration/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
