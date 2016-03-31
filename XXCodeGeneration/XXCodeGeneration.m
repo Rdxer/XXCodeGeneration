@@ -14,6 +14,8 @@
 
 #import "XLazySettingsWindowController.h"
 
+#import "XLazyAboutWindowController.h"
+
 @interface XXCodeGeneration()
 
 @property (nonatomic, strong, readwrite) NSBundle *bundle;
@@ -21,6 +23,8 @@
 @property (nonatomic, strong) NSMenuItem *actionMenuItem;
 
 @property (nonatomic, strong) XLazySettingsWindowController *lazySettingsWC;
+
+@property (nonatomic, strong) XLazyAboutWindowController *lazyAboutWC;
 
 @end
 
@@ -78,6 +82,13 @@
         [actionMenuItem setTarget:self];
         [[pluginsMenuItem submenu] addItem:actionMenuItem];
     }
+    if (pluginsMenuItem) {
+        [[pluginsMenuItem submenu] addItem:[NSMenuItem separatorItem]];
+        
+        NSMenuItem *actionMenuItem = [[NSMenuItem alloc] initWithTitle:@"关于" action:@selector(jump2LazyAboutWindow) keyEquivalent:@""];
+        [actionMenuItem setTarget:self];
+        [[pluginsMenuItem submenu] addItem:actionMenuItem];
+    }
 }
 
 #pragma mark - 事件响应
@@ -126,6 +137,12 @@
     XLazySettingsWindowController *wc =[[XLazySettingsWindowController alloc] initWithWindowNibName:@"XLazySettingsWindowController"];
     [wc showWindow:wc];
     self.lazySettingsWC = wc;
+}
+
+- (void)jump2LazyAboutWindow{
+    XLazyAboutWindowController *wc =[[XLazyAboutWindowController alloc] initWithWindowNibName:@"XLazyAboutWindowController"];
+    [wc showWindow:wc];
+    self.lazyAboutWC = wc;
 }
 
 - (void)showErrorAlert:(NSString *)msg{

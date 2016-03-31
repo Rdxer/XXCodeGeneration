@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD4E53361CAD150C003A314D /* XLazyAboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4E53341CAD150C003A314D /* XLazyAboutWindowController.m */; };
+		FD4E53371CAD150C003A314D /* XLazyAboutWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD4E53351CAD150C003A314D /* XLazyAboutWindowController.xib */; };
 		FD8125DB1C4E303200EA3A61 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8125DA1C4E303200EA3A61 /* AppKit.framework */; };
 		FD8125DD1C4E303200EA3A61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8125DC1C4E303200EA3A61 /* Foundation.framework */; };
 		FD8125E11C4E303200EA3A61 /* XXCodeGeneration.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = FD8125E01C4E303200EA3A61 /* XXCodeGeneration.xcscheme */; };
@@ -22,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD4E53331CAD150C003A314D /* XLazyAboutWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLazyAboutWindowController.h; sourceTree = "<group>"; };
+		FD4E53341CAD150C003A314D /* XLazyAboutWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLazyAboutWindowController.m; sourceTree = "<group>"; };
+		FD4E53351CAD150C003A314D /* XLazyAboutWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLazyAboutWindowController.xib; sourceTree = "<group>"; };
 		FD8125D71C4E303200EA3A61 /* XXCodeGeneration.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXCodeGeneration.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8125DA1C4E303200EA3A61 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		FD8125DC1C4E303200EA3A61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -90,6 +95,7 @@
 		FD8125DE1C4E303200EA3A61 /* XXCodeGeneration */ = {
 			isa = PBXGroup;
 			children = (
+				FDDFE5941CAD135C006F43BA /* About */,
 				FD8125FB1C4E30CD00EA3A61 /* StringHelper */,
 				FD8125F21C4E30C600EA3A61 /* Settings */,
 				FD8125F01C4E306000EA3A61 /* Category */,
@@ -155,6 +161,16 @@
 			path = StringHelper;
 			sourceTree = "<group>";
 		};
+		FDDFE5941CAD135C006F43BA /* About */ = {
+			isa = PBXGroup;
+			children = (
+				FD4E53331CAD150C003A314D /* XLazyAboutWindowController.h */,
+				FD4E53341CAD150C003A314D /* XLazyAboutWindowController.m */,
+				FD4E53351CAD150C003A314D /* XLazyAboutWindowController.xib */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -212,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD8125E11C4E303200EA3A61 /* XXCodeGeneration.xcscheme in Resources */,
+				FD4E53371CAD150C003A314D /* XLazyAboutWindowController.xib in Resources */,
 				FD8125FA1C4E30C600EA3A61 /* XLazySettingsWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD8125E41C4E303200EA3A61 /* XXCodeGeneration.m in Sources */,
+				FD4E53361CAD150C003A314D /* XLazyAboutWindowController.m in Sources */,
 				FD8126041C4E30CD00EA3A61 /* OCProperty.m in Sources */,
 				FD8126051C4E30CD00EA3A61 /* StringFormater.m in Sources */,
 				FD8125F81C4E30C600EA3A61 /* XLazySettings.m in Sources */,
@@ -361,6 +379,7 @@
 				FD8125ED1C4E303200EA3A61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
