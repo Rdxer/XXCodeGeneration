@@ -15,6 +15,8 @@ NSString *const kXLazyRegularText = @"com.rdxer.XLazy.regularText";
 NSString *const kXLazyFormatString = @"com.rdxer.XLazy.formatString";
 //NSString *const kXLazyRegularText = @"com.rdxer.XLazy.regularText";
 
+
+
 @interface XLazySettings ()
 
 @end
